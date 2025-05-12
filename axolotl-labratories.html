@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Axolotl Lab-ratories</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: #fffafc;
+      color: #333;
+    }
+    header {
+      background: #ffe4ec;
+      padding: 1em;
+      text-align: center;
+      background-image: radial-gradient(#ffb6c1 5%, transparent 0), radial-gradient(#b0e0e6 5%, transparent 0);
+      background-size: 30px 30px;
+      background-position: 0 0, 15px 15px;
+    }
+    nav a {
+      margin: 0 1em;
+      text-decoration: none;
+      color: #444;
+      font-weight: bold;
+    }
+    section {
+      padding: 2em;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1em;
+    }
+    .product {
+      background: #f9f1f6;
+      padding: 1em;
+      border-radius: 1em;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    button {
+      background-color: #ffb6c1;
+      border: none;
+      padding: 0.5em 1em;
+      border-radius: 0.5em;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 1em;
+      background: #ffe4ec;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Axolotl Lab-ratories</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to Axolotl Lab-ratories!</h2>
+    <p>Created by a young maker with a big imagination, The Axolotl Lab-ratories is a child-owned business where crafts, magic, and science collide in the most colorful, creative ways! From sparkly slime, to beautiful bead braclets, to whimsical wands and DIY science kits, every product is designed to spark joy and creativity. We believe learning should be fun, messy, and full of wonder- jule like axolotls and lab puppies! Whether you're a budding scientist, a crafty creator, or a beliver in magic, there's something here just for you. Handmade with heart, powered by kid-brain and sprinkled with polka dot job, we are happy you found our site!</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p> A kid-owned business based on a passion for hands-on fun and creativity. Every kit is designed to spark creativity and curiosity!</p>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product">
+        <h3>Slime Lab Kit</h3>
+        <p>$12.99</p>
+        <button onclick="alert('Added to cart!')">Add to Cart</button>
+      </div>
+      <div class="product">
+        <h3>Axolotl Painting Set</h3>
+        <p>$9.99</p>
+        <button onclick="alert('Added to cart!')">Add to Cart</button>
+      </div>
+      <div class="product">
+        <h3>Dino Dig Kit</h3>
+        <p>$14.99</p>
+        <button onclick="alert('Added to cart!')">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: hello@axolotllabratories.com</p>
+    <p>Instagram: @axolotl.lab.ratories</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Axolotl Lab-ratories. All rights reserved.</p>
+  </footer>
+</body>
+</html>
